@@ -1,0 +1,19 @@
+.peliculas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 350px;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px;
+    margin-right: 25px;
+    img{
+        width: 90%;
+        height: 280px;
+    }
+}
